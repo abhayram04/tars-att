@@ -1,6 +1,7 @@
 
 #This file holds the code for appending/adding names of students to a list
 #File must be addded to the main program.
+#Copyright TARS Inc.
 
 from openpyxl import Workbook,load_workbook
 
@@ -11,7 +12,7 @@ def adder():
     name = input("Enter the name of the student: ")
 
     for i in sub:
-        path="C:/Users/abhay/Desktop/tars/sub/"+i+".xlsx"
+        path="./sub/"+i+".xlsx"
         wb = load_workbook(path)
 
         page = wb.active

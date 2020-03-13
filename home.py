@@ -1,5 +1,6 @@
 
-#Tis is the hub for all the python files/sections.
+#This is the hub for all the python files/sections.
+#Copyright TARS Inc.
 
 import getpass
 from main import dev_manner

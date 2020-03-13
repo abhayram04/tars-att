@@ -1,5 +1,6 @@
 #This file contains the code necessary for viewing attendance of students.
 #File must be addded to the main program.
+#Copyright TARS Inc.
 
 from openpyxl import load_workbook
 
@@ -11,15 +12,15 @@ def tview():
 
     #The conditional statements are used to load *only* the file pertaining to the selected subject file.
     if(s_inp=='1'):
-        wb = load_workbook("C:/Users/abhay/Desktop/tars/sub/math.xlsx")
+        wb = load_workbook("./sub/math.xlsx")
     elif(s_inp=='2'):
-        wb = load_workbook("C:/Users/abhay/Desktop/tars/sub/py.xlsx")
+        wb = load_workbook("./sub/py.xlsx")
     elif(s_inp=='3'):
-        wb = load_workbook("C:/Users/abhay/Desktop/tars/sub/ml.xlsx")
+        wb = load_workbook("./sub/ml.xlsx")
     elif(s_inp=='4'):
-        wb = load_workbook("C:/Users/abhay/Desktop/tars/sub/hind.xlsx")
+        wb = load_workbook("./sub/hind.xlsx")
     elif(s_inp=='5'):
-        wb = load_workbook("C:/Users/abhay/Desktop/tars/sub/span.xlsx")
+        wb = load_workbook("./sub/span.xlsx")
     else:
         print("Wrong input")
 
