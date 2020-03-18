@@ -2,6 +2,7 @@
 #This file contains the code required for marking attendace.
 #File must be addded to the main program.
 #Copyright TARS Inc.
+#Made with ❤ in Mary's 
 
 
 from openpyxl import Workbook, load_workbook

@@ -1,26 +1,28 @@
 #This file contains the code necessary for viewing attendance of students.
 #File must be addded to the main program.
 #Copyright TARS Inc.
+#Made with ❤ in Mary's 
+
 
 from openpyxl import load_workbook
 
-def tview():
-
+def tview(bam):
+    sam = bam
     print("\n")
     print("Subjects: 1.)Algebra 2.)Python 3.)Machine Learning 4.)Hindi 5.)Spanish")
     s_inp = input("Enter subject option: ")
 
     #The conditional statements are used to load *only* the file pertaining to the selected subject file.
     if(s_inp=='1'):
-        wb = load_workbook("./sub/math.xlsx")
+        wb = load_workbook("../sub/"+sam+"/math.xlsx")
     elif(s_inp=='2'):
-        wb = load_workbook("./sub/py.xlsx")
+        wb = load_workbook("../sub/"+sam+"/py.xlsx")
     elif(s_inp=='3'):
-        wb = load_workbook("./sub/ml.xlsx")
+        wb = load_workbook("../sub/"+sam+"/ml.xlsx")
     elif(s_inp=='4'):
-        wb = load_workbook("./sub/hind.xlsx")
+        wb = load_workbook("../sub/"+sam+"/hind.xlsx")
     elif(s_inp=='5'):
-        wb = load_workbook("./sub/span.xlsx")
+        wb = load_workbook("../sub/"+sam+"/span.xlsx")
     else:
         print("Wrong input")
 

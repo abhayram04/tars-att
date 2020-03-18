@@ -1,12 +1,14 @@
 #Created on 1st March, 2020
 #Copyright TARS Inc.
+#Made with ❤ in Mary's 
 
 from openpyxl import Workbook
 from add import adder
 from mark import marker
 from view import tview
 
-def dev_manner():
+def dev_manner(dam):
+    gam = dam
     print("\n")
     print("LOGIN SUCCESSFUL. Welcome to Attendance app!")
     print("\n")
@@ -30,7 +32,7 @@ def dev_manner():
 
     elif(inp=='4'):
         #Function call to view attendance
-        tview()
+        tview(gam)
 
     elif(inp=='5'):
         #Function call to logout from the service.
