@@ -6,9 +6,13 @@ reg-test/home.py is the main file, so please run this file only.
 CHANGE LOG:
 
 v0.8 (18-03-2020)
+
 -Added encryption.
+
 -Added registration feature.
+
 -Improved flow of the app.
+
 -Dynamic multi-user feature added. 
 
 v0.6 (17-03-2020)
