@@ -3,7 +3,7 @@ A shell based attendance app written in Python.
 
 reg-test/home.py is the main file, so please run this file only.
 
-For login, for now, use ID: saif and Password: ali
+Register first to login. 
 
 CHANGE LOG:
 
