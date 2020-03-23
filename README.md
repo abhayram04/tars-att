@@ -7,7 +7,7 @@ Register first to login.
 
 CHANGE LOG:
 
-Gold Master (GM) 23-03-2020
+Gold Master (23-03-2020)
 
 -Navigation loopholes fixed.
 
