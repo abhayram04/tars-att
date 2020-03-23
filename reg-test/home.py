@@ -6,25 +6,29 @@ import getpass
 from dec import reg
 from register import regie
 
-print("hello")
-print("\n")
-print("#############################################")
-print("##                                         ##")
-print("##                 TARS                    ##")
-print("##            ATTENDANCE APP               ##")
-print("##                                         ##")
-print("#############################################")
-print("Made with ❤ in Mary's")
+def homie():
+    print("#############################################")
+    print("##                 TARS                    ##")
+    print("##            ATTENDANCE APP               ##")
+    print("#############################################")
+    print("Made with ❤ in Mary's")
 
-print("\n") 
-choi = input("1. LOGIN | 2. REGISTER : ")
-if(choi=='1'):
-    uid = input("Username: ")
-    pwd = getpass.getpass("Password: ")
-    reg(uid,pwd)
-else:
-    regie()
-
+    
+    print("\n") 
+    choi = input("1. LOGIN | 2. REGISTER : ")
+    
+    if(choi=='1'):
+        uid = input("Username: ")
+        pwd = getpass.getpass("Password: ")
+        reg(uid,pwd)
+    elif(choi=='2'):
+        regie()
+    else:
+        print("\nSorry, wrong input :/")
+        print("Please try again!")
+        homie()
+        
+homie()
 
 
 

@@ -1,6 +1,7 @@
 
 from openpyxl import Workbook, load_workbook
 from cryptography.fernet import Fernet
+from mkxl import sadd
 import getpass
 import os
 def regie():
@@ -19,7 +20,8 @@ def regie():
 
     file.close()
 
-    path = "C:/Users/Abhay Ram/Desktop/tars-att/sub/"+name+"/"
+    mp = os.path.abspath('../')
+    path = mp+"/sub/"+name+"/"
     os.mkdir(path)
     f = Fernet(key)
     uenc = f.encrypt(name.encode())
@@ -39,6 +41,8 @@ def regie():
     m_cell.value = penc
 
     wb.save("cap.xlsx")
+    
+    sadd(name)
 
     
 

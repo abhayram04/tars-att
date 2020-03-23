@@ -5,16 +5,21 @@
 #Made with ❤ in Mary's 
 
 from openpyxl import Workbook,load_workbook
+from schoose import scho,sadd
 
 
-def adder():
-
-    sub = ['math','span','ml','hind','py']
+def adder(bam,ans):
+    sam=bam
+    #sub = ['math','span','ml','hind','py']
+    sub = sadd(sam,ans)
     print("\n")
     name = input("Enter the name of the student: ")
+    print("Class selected: "+ans)
+    
+
 
     for i in sub:
-        path="../sub/"+i+".xlsx"
+        path = "../sub/"+sam+"/"+ans+"/"+i+".xlsx"
         wb = load_workbook(path)
 
         page = wb.active

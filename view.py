@@ -5,15 +5,22 @@
 
 
 from openpyxl import load_workbook
+from schoose import scho
 
-def tview(bam):
+def tview(bam,ans):
     sam = bam
     print("\n")
-    print("Subjects: 1.)Algebra 2.)Python 3.)Machine Learning 4.)Hindi 5.)Spanish")
-    s_inp = input("Enter subject option: ")
+    #print("Subjects: 1.)Algebra 2.)Python 3.)Machine Learning 4.)Hindi 5.)Spanish")
+    #s_inp = input("Enter subject option: ")
+    print("Class selected: "+ans)
+    
+    choc = scho(sam,ans)
+
+    path = "../sub/"+sam+"/"+ans+"/"+choc+".xlsx"
+    wb = load_workbook(path)
 
     #The conditional statements are used to load *only* the file pertaining to the selected subject file.
-    if(s_inp=='1'):
+    """if(s_inp=='1'):
         wb = load_workbook("../sub/"+sam+"/math.xlsx")
     elif(s_inp=='2'):
         wb = load_workbook("../sub/"+sam+"/py.xlsx")
@@ -24,7 +31,7 @@ def tview(bam):
     elif(s_inp=='5'):
         wb = load_workbook("../sub/"+sam+"/span.xlsx")
     else:
-        print("Wrong input")
+        print("Wrong input")"""
 
     page = wb.active
 
