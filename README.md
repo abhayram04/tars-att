@@ -7,6 +7,14 @@ Register first to login.
 
 CHANGE LOG:
 
+Gold Master (GM) 23-03-2020
+
+-Navigation loopholes fixed.
+
+-Added multi-class support.
+
+-Improved UX.
+
 v0.8 (18-03-2020)
 
 -Added encryption.
