@@ -44,6 +44,8 @@ def regie():
     
     sadd(name)
 
+    return 0
+
     
 
     

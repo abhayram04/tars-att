@@ -1,0 +1,11 @@
+
+ABOUT
+
+The TARS attendance app has been purely in Python (using the latest methods of v3.8). 
+It uses the open source library "openpyxl" to handle the data (and its transfer).
+
+For keeping the user accounts (login credentials) safe & secure, a set of encryption methods of the package "fernet"have been used.
+Fernet methods are part of the open source projects pertaining to the "cryptography" library.
+
+Created by Abhay Ram.
+Copyright © 2019 TARS Inc. All right reserved. 

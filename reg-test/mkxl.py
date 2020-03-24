@@ -35,11 +35,11 @@ def list_sub(val,name,j):
 
 
 def sadd(name):
-    x=input("How many classes do you teach for?")
+    x=input("\nHow many classes do you teach for : ")
     x=int(x)
     clan = []
     
-    print("Enter a class name (don't use space or special characters) followed by the Enter key and repeat:")
+    print("\nEnter a class name followed by the Enter key and repeat:")
     for i in range(0,x):
         clin = input("")
         clan.append(clin)
@@ -51,14 +51,14 @@ def sadd(name):
 
     
 
-    print("\n")
     
     for j in clan:
         s_list = []
-        print("How many subjects do you teach for "+j+"?")
-        subs = input("")
+        print("\n")
+
+        subs = input("How many subjects do you teach for "+j+" class? : ")
         subs=int(subs)
-        print("Enter a subject name (don't use space or special characters) followed by the Enter key and repeat:")
+        print("\nEnter a subject name (space & special characters not allowed) followed by the Enter key and repeat:")
         for nos in range(0,subs):
             
             inne = input("")
@@ -69,6 +69,8 @@ def sadd(name):
             
             bas_txt(path)
         list_sub(s_list,name,j)
+    print("\nREGISTRATION COMPLETE!!! YOU CAN LOGIN NOW :)\n")
+
 
             
 

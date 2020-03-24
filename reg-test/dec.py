@@ -34,4 +34,5 @@ def reg(uad,pad):
                 print("\n")
                 print("LOGIN SUCCESSFUL. Welcome to Attendance app!")
                 dev_manner(dam)
+    print("\nInvalid credentials. Please try again!")
 
