@@ -13,6 +13,14 @@ Register first to login.
 
 CHANGE LOG:
 
+v1.0 (24-03-2020)
+
+-Squashed bugs.
+
+-Removed unnecessary code.
+
+-Production build executable file created.
+
 Gold Master (23-03-2020)
 
 -Navigation loopholes fixed.
