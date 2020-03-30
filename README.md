@@ -5,7 +5,7 @@ The "production" folder directory contains the final (Windows) executable file a
 
 The "development" directory contains the code used to build the final executable file.
 
-The "early" directory contains the early development files.
+The "early" directory contains a pre-production build of the app.
 
 In the case of "early" and "development", run only the home.py for testing (as its the main file).
 
