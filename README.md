@@ -11,7 +11,7 @@ In the case of "early" and "development", run only the home.py for testing (as i
 
 Register first to login. 
 
-<strongg>CHANGE LOG:</strong>
+<strong>CHANGE LOG:</strong>
 
 v1.0 (24-03-2020)
 
