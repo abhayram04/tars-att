@@ -1,7 +1,7 @@
 # tars-att
 A shell based attendance app written in Python.
 
--The "production" folder directory contains the final (Windows) executable file and supporting files.
+-The "production" directory contains the final (Windows) executable file and supporting files.
 
 -The "development" directory contains the code used to build the final executable file.
 
