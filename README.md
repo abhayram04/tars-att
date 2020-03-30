@@ -1,12 +1,12 @@
 # tars-att
 A shell based attendance app written in Python.
+<ul>
+<li>-The "production" directory contains the final (Windows) executable file and supporting files.</li>
 
--The "production" directory contains the final (Windows) executable file and supporting files.
+<li>-The "development" directory contains the code used to build the final executable file.</li>
 
--The "development" directory contains the code used to build the final executable file.
-
--The "early" directory contains a pre-production build of the app.
-
+<li>The "early" directory contains a pre-production build of the app.</li>
+</ul>
 In the case of "early" and "development", run only the home.py for testing (as its the main file).
 
 Register first to login. 
